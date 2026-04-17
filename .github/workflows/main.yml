@@ -35,5 +35,5 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build and Push
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/gp1-demoo:latest .
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/gp1-demoo:latest
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/gp1-demo:latest .
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/gp1-demo:latest
